@@ -20,6 +20,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('user/', include('user.urls')),
     path('', include('requestdemo.urls')),
-    path('', include('cookdemodemo.urls')),
-
+    path('', include('cookdemo.urls')),
+    path('', include('sessiondemo.urls')),
 ]
